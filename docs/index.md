@@ -7,17 +7,17 @@ actionText: 立刻进入 →
 actionLink: /web/
 
 features: # 可选的
-  - title: 前端
-    details: JavaScript、ES6、Vue框架等前端技术
-    link: /web/ # 可选
+  - title: 前端笔记
+    details: JavaScript、ES6、Vue框架、React框架、小程序、TS、Git等前端技术笔记
+    link: /note/javascript/ # 可选
     imgUrl: /img/web.png # 可选
   - title: 页面
     details: html(5)/css(3)，前端页面相关技术
-    link: /ui/
+    link: /pages/8309a5b876fc95e3/
     imgUrl: /img/ui.png
-  - title: 技术
-    details: 技术文档、教程、技巧、总结等文章
-    link: /technology/
+  - title: 算法
+    details: 常见JS算法、JS场景题等
+    link: /pages/a61742/
     imgUrl: /img/other.png
 hideRightBar: true # 是否隐藏右侧边栏
 ---

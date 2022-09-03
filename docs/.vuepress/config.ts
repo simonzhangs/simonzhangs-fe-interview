@@ -1,7 +1,6 @@
 /**
  * 提示：如您想使用JS版本的配置文件可参考：https://github.com/xugaoyi/vuepress-theme-vdoing/tree/a2f03e993dd2f2a3afdc57cf72adfc6f1b6b0c32/docs/.vuepress
  */
-import { resolve } from 'path'
 import { defineConfig4CustomTheme, UserPlugins } from 'vuepress/config'
 import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
 import dayjs from 'dayjs'
@@ -32,9 +31,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '前端笔记',
         link: '/note/javascript/',
-        // link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
-          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
             text: '学习笔记',
             items: [
@@ -65,11 +62,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: 'HTML/CSS',
-        link: '/pages/8309a5b876fc95e3/',    //02.页面文件夹第一个链接
-        // items: [
-        //   { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-        //   { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-        // ],
+        link: '/pages/e74844/',
       },
       {
         text: 'JavaScript',
