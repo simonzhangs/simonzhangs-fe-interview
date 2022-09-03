@@ -11,7 +11,7 @@ jobs: # 工作流
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [16.17.0]
 
     steps: 
       - name: Checkout # 步骤1
@@ -23,6 +23,5 @@ jobs: # 工作流
       - name: run deploy.sh # 步骤3 （同时部署到github和coding）
         env: # 设置环境变量
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
-          CODING_TOKEN: ${{ secrets.CODING_TOKEN }} # 腾讯云开发者平台（coding）私密token
         run: npm install && npm run deploy # 执行的命令  
         # package.json 中添加 "deploy": "bash deploy.sh"
